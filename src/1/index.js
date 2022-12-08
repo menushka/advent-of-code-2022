@@ -1,6 +1,7 @@
 import fs from 'fs'
 
-const sum = arr => arr.reduce((acc, cur) => acc + cur, 0)
+import { sum } from '../utils/math.js'
+
 const indexOfMax = (arr) => {
   if (arr.length === 0) {
       return -1;
@@ -36,8 +37,6 @@ const thirdLargestIndex = indexOfMax(maxData)
 const thirdLargest = maxData[thirdLargestIndex ]
 
 delete maxData[thirdLargestIndex]
-
-console.log(largest, secondLargest, thirdLargest)
 
 console.log('Max: ', largest)
 console.log('Max of highest three: ', sum([largest, secondLargest, thirdLargest]))

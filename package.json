@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "1": "(cd src/1 && node index.js)",
-    "2": "(cd src/2 && node index.js)"
+    "2": "(cd src/2 && node index.js)",
+    "3": "(cd src/3 && node index.js)"
   },
   "keywords": [],
   "author": "",

@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-const sum = arr => arr.reduce((acc, cur) => acc + cur, 0)
+import { sum } from '../utils/math.js'
 
 const Shape = {
   ROCK: 'ROCK',
